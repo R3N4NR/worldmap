@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Projeto Mapa Mundial Interativo com React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto consiste em uma aplicação web interativa que permite aos usuários explorar um mapa mundial, pintar países por cor e obter informações detalhadas clicando nos países.
 
-## Available Scripts
+### Funcionalidades:
 
-In the project directory, you can run:
+1. **Visualização do Mapa Mundial:**
+   - O mapa mundial é exibido na tela inicial da aplicação, permitindo aos usuários visualizar todos os países.
 
-### `yarn start`
+2. **Pintura dos Países:**
+   - Os usuários podem selecionar cores diferentes e pintar os países no mapa conforme sua escolha.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. **Obtenção de Informações:**
+   - Ao clicar em um país é possível saber o nome.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Tecnologias Utilizadas:
 
-### `yarn test`
+- **React:** Para a construção da interface de usuário e gestão do estado da aplicação.
+- **TypeScript:** Para adicionar tipagem estática ao JavaScript, tornando o código mais robusto e escalável.
+- **CSS:** Para estilização da aplicação.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Como Utilizar:
 
-### `yarn build`
+1. Clone este repositório em sua máquina local.
+2. Execute `yarn install` para instalar as dependências do projeto.
+3. Execute `yarn start` para iniciar o servidor de desenvolvimento.
+4. Abra o navegador e acesse `http://localhost:3000`.
+5. Interaja com o mapa:
+   - Selecione uma cor da paleta disponível.
+   - Clique em um país para pintá-lo com a cor selecionada.
+   - Obtenha o nome do país clicando nele.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Contribuições:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar uma pull request com melhorias.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Licença:
 
-### `yarn eject`
+Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para obter mais detalhes.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Autor:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto foi desenvolvido por Renan Rocha Ramalho.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Nota:** Certifique-se de adicionar as informações relevantes, como seu nome como autor e quaisquer outras instruções específicas de configuração que possam ser necessárias.
